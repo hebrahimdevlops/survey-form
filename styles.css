@@ -1,0 +1,103 @@
+body {
+  margin: 0 40px;
+  padding: 0;
+  background: linear-gradient(to bottom, #964b00, #cc9966);
+  font-family: 'Montserrat', Poppins, sans-serif;
+}
+
+#survey-form {
+  display: block;
+}
+#number,
+#email,
+#name,
+#submit,
+#dropdown,
+#message {
+  width: 100%;
+  height: 40px;
+  margin: 5px 0;
+  border-radius: 0.25rem;
+  border: none;
+}
+.submit feedback {
+  padding: 5px 0;
+}
+.submit-format {
+  background-color: #008080;
+  color: #bcbcbc;
+  font-size: 1.08em;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #028585;
+  color: #ffffff;
+}
+
+.radio-choice checkbox-choice {
+  display: block;
+}
+
+.recommend-friend {
+  padding: 5px 0;
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.title p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  font-size: 2em;
+}
+
+.main-content {
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  fex: 1;
+  text-align: left;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.125em;
+}
+
+option:disabled {
+  color: light-dark(gray-text, rgb(170, 170, 170));
+}
+#dropdown option {
+  cursor: pointer;
+}
+span {
+  font-size: 0.8em;
+}
+
+[type='radio'] + label {
+  margin: 0 5px 0 0;
+  font-size: 0.9em;
+  position: relative;
+}
+
+[type='checkbox'] + label {
+  margin: 0 5px 0 0;
+  font-size: 0.9em;
+  position: relative;
+}
+.improve-areas {
+  margin-bottom: 1.25em;
+}
+#message {
+  min-height: 100px;
+}

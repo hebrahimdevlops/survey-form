@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrainHub</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+      <div class="title">
+    <h1 id="title">GrainHub Survey Form</h1>
+    <p id="description">Welcome! Help us improve on your service.</p>
+    </div>
+
+    <div class="main-content">
+    <form id="survey-form">
+      <div class="bio-data">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" required placeholder="Enter your name">
+
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="email" required  placeholder="Enter your email">
+
+      <label id="number-label" for="number">Age<span>(optional)</span></label>
+      <input id="number" type="number" min="1" max="99" placeholder="Enter your Age">
+      </div>
+      <div class="current-role">
+        <label for="dropdown">Which option matches your current diet?</label>
+        <select id="dropdown">
+          <option selected disabled value>Choose your diet plan</option>
+          <option>Mediterrenian</option>
+          <option>Keto(Ketogenic)</option>
+          <option>Paleo Diet</option>
+          <option>Vegeterian</option>
+          <option>Vegan</option>
+        </select>
+      </div>
+      <div class="recommend-friend">
+        <label for="choice">Would you recommend us to your friends?</label>
+        <div class="radio-choice">
+        <input type="radio" id="option1" value="option1" name="choice"></input>
+        <label for="option1">Yes,
+          definitely</label>
+          </div>
+
+        <div class="radio-choice">
+        <input id="option2" value="option2" name="choice" type="radio"></input>
+        <label for="option2">No,definitely not</label>
+        </div>
+
+        <div class="radio-choice">
+        <input type="radio" id="option3" value="option3" name="choice"></input>
+        <label for="option3">Prefer not to answer</label>
+        </div>
+
+      </div>
+
+      <div class="appealing-items">
+        <label for="dropdown">Which of our package is most appealing?</label>
+        <select id="dropdown">
+          <option selected disabled value>Select the most appealing</option>
+          <option>Whole Grain</option>
+          <option>Gluten-Free</option>
+          <option>Organic</option>
+          <option>Non-GMO</option>
+          <option>Fortified</option>
+          <option>Low Carbs</option>
+          <option>Ancient Grains</option>
+        </select>
+
+      </div>
+
+      <div class="improve-areas">
+        <p>What do you suggest to improved?</p>
+
+        <div class="checkbox-choice">
+        <input type="checkbox" id="first-improve"   value="first-improve" name="improve"></input>
+
+<label for="first-improve">Quantity</label>
+</div>
+
+<div class="checkbox-choice">
+<input type="checkbox" id="second-improve"   value="second-improve" name="improve"></input>
+
+<label for="second-improve">Taste</label>
+</div>
+
+<div class="checkbox-choice">
+<input type="checkbox" id="third-improve"   value="third-improve" name="improve"></input>
+
+<label for="third-improve">Nutritional Value</label>
+</div>
+
+<div class="checkbox-choice">
+<input type="checkbox" id="fourth-improve"   value="fourth-improve" name="improve"></input>
+
+<label for="fourth-improve">Packaging</label>
+</div>
+
+<div class="checkbox-choice">
+<input type="checkbox" id="fifth-improve"   value="fifth-improve" name="improve"></input>
+
+<label for="fifth-improve">Variety</label>
+</div>
+
+      </div>
+      <div class="feedback">
+        <label for="message">Customized input</label>
+  <textarea id="message" name="message" rows="100" cols="50" placeholder="Kindly input your feedback">
+  </textarea>
+      </div>
+
+      <div class="submit form-items">
+        <input id="submit" class="submit-format" type="submit"></input>
+      </div>
+
+
+    </form>
+    </div>
+
+  </main>
+  </body>
+  </html>
